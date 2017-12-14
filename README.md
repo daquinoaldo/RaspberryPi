@@ -13,3 +13,6 @@ In particular, if any script here has been useful for you, you are invited to co
 
 ### License
 All contents of this repository (unless otherwise specified) are released under the GNU GPLv3 license (GNU General Public License v3.0). You can consult it in the [LICENSE](LICENSE) file.
+
+### Explore
+* [First setup](first-setup)
