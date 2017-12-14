@@ -13,12 +13,12 @@ Let's focus on boot: we can use this partition to configure the system automatic
 network={
     ssid="YOUR_WIFI_SSID_1"
     psk="YOUR_WIFI_PASSWORD_1"
-    priority = 1
+    priority=1
 }
 network={
     ssid="YOUR_WIFI_SSID_2"
     psk="YOUR_WIFI_PASSWORD_2"
-    priority = 2
+    priority=2
 }
 ```
 *This will be moved to the /etc/wpa_supplicant/ directory the next time the system is booted, __overwriting the network settings__*, according to [The latest update to Raspbian - Raspberry Pi, 2016-05-13](https://www.raspberrypi.org/blog/another-update-raspbian/).
