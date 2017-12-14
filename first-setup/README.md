@@ -25,4 +25,4 @@ network={
 
 ### Enable SSH
 Just put an empty file called `ssh` (without exension) in the boot partition to enable SSH at first boot. Note that the file will be deleted after the first boot but the ssh will remain enabled.
-Now you can access via SSH to your Raspberry, but you need tho know the IP address. [Here](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) there is a tutorial from the Raspberry Pi website.
+Now you can access via SSH to your Raspberry, but you need tho know the IP address. [Here](https://www.raspberrypi.org/documentation/remote-access/ip-address.md) there is a tutorial from the Raspberry Pi website. On Apple MacOS and Linux you can reach your Raspberry Pi also with domain raspberrypi.local, on Windows you need to install [Apple Bonjour](http://support.apple.com/downloads/DL999/en_US/BonjourPSSetup.exe).
