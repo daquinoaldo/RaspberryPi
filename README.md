@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# RaspberryPi
+### Raspberry Pi scripts and tips for dummies (like me)
 
-You can use the [editor on GitHub](https://github.com/daquinoaldo/RaspberryPi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I created this repository mainly for myself, so I do not have to search the right script or command every time. So I decided to keep a toolbox with the useful tools to keep close at hand.
+I have made it public so that all those who need it can benefit from it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Disclaimer
+Every script, command or suggestion must be taken "as is", without any guarantee. Some commands may not be updated or compatible with the version of Raspbian you are using.
 
-### Markdown
+### Contribute
+You can contribute to this collection by opening iussue (which if and when I will have time I will watch) and doing pull requests.
+In particular, if any script here has been useful for you, you are invited to contribute by releasing something, even in the form of links to your repository, site or tutorial.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daquinoaldo/RaspberryPi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### License
+All contents of this repository (unless otherwise specified) are released under the GNU GPLv3 license (GNU General Public License v3.0). You can consult it in the [LICENSE](LICENSE) file.
