@@ -31,3 +31,6 @@ You can access remotely to your Rapberry Pi with `ssh pi@192.168.1.100`, obvious
 **Windows users:** Windows doesn't have SSH, so you can use [PuTTY](http://www.putty.org/) (the easiest way) or [install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Ubuntu on Windows, nice!).
 
 You can reach your Raspberry Pi also with domain **raspberrypi.local**: `ssh pi@raspberrypi.local`. This should work on MacOS and Linux (if not `apt-get install libnss-mdns` should fix), on Windows you need to install [Apple Bonjour](http://support.apple.com/downloads/DL999/en_US/BonjourPSSetup.exe) to make things works.
+
+### Change password
+Remember to change the default password for pi! You can do it with the `passwd` command.
