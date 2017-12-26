@@ -7,5 +7,5 @@ echo "deb https://dev2day.de/pms/ $(lsb_release -cs) main" | sudo tee /etc/apt/s
 sudo apt-get update
 sudo apt-get install -y -t $(lsb_release -cs) plexmediaserver-installer
 sudo sed -i -e 's/PLEX_MEDIA_SERVER_USER=plex/PLEX_MEDIA_SERVER_USER=pi/g' /etc/default/plexmediaserver.prev
-sudo chown -R pi:pi /var/lib/plexmediaserver
+sudo chown -R plex:plex /var/lib/plexmediaserver/
 sudo service plexmediaserver restart
