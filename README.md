@@ -16,3 +16,4 @@ All contents of this repository (unless otherwise specified) are released under 
 
 ### Explore
 * [First setup](first-setup)
+* [Plex Media Server](plexmediaserver)
