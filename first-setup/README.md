@@ -3,7 +3,7 @@
 ### Install the OS
 1. Choose one of the OS from the [official Raspberry Pi website](https://www.raspberrypi.org/downloads/). I suggest [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), the official Raspberry Pi OS. You can choose the headless version (lite) or the full version (with desktop): I suggest the lite for advanced users and the full version for those who are at the first experience. This tutorial works with both versions, but if you got the desktop version some operation like setup the Wi-Fi can be performed using the GUI (there are lots of tutorial in the web).
 2. Download the image (if you have a bittorrent client like uTorrent you can chose “Download Torrent”, faster and preferred way) and unzip the img file. 
-3. Burn the image to a micro SD card (you will need an adapter). I suggest to use [Etcher](https://etcher.io/), a multiplatform tool to burn images to drives.
+3. Burn the image to a micro SD card (you will need an adapter). I suggest to use [Etcher](https://etcher.io/), a multiplatform tool to burn img files to SD cards.
 
 ### Set-up Wi-Fi
 Once burned the sd card you can see 2 partition: boot and root (Windows users can open only the boot).
