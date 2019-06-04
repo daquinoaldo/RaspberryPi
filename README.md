@@ -16,4 +16,5 @@ All contents of this repository (unless otherwise specified) are released under 
 
 ### Explore
 * [First setup](first-setup)
+* [Mount drive at boot](mount-drive-at-boot)
 * [Plex Media Server](plexmediaserver)
