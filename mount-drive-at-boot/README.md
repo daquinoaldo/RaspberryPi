@@ -8,7 +8,7 @@ curl https://raw.githubusercontent.com/daquinoaldo/RaspberryPi/master/mount-driv
 sudo reboot
 ```
 
-#### Important note:
+#### Important note
 This script mounts a **NTFS** partition **`/dev/sda1`** in `/mnt/usb`. If you need to mount **another partition** (i.e. /dev/sdb3) **or with another filesystem** (i.e. FAT32) download the script and change the bash commands to meet your needs or follow the instruction in the next section.
 
 
