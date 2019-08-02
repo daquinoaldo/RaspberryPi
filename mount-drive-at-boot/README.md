@@ -1,6 +1,8 @@
 # Mount drive at boot
 Mount an external drive when the Raspberry Pi turns on. Usefule for a DIY NAS with samba.
 
+I used an NTFS filesystem: it's not the best to use with linux, but it supports file bigger than 4GB and is compatible with Windows (read/write) and MacOS (read-only, read/write with third-part tools like [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac/)).
+
 ## TL;DR
 To mount a ntfs partition `/dev/sda1` in `/mnt/usb` at boot just exec my script and reboot the system.
 ```
