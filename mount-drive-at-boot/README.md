@@ -35,3 +35,7 @@ Here is how to set up the Pi manually.
    /dev/sda1 /mnt/usb ntfs-3g defaults 0 0
    ```
    where `/dev/sda1 ` is the partition to mount, `/mnt/usb` is the mount point previously created, and `ntfs-3g` is the filesystem (for NTFS, otherwise can be `ext2`, `ext3`, `vfat` for FAT32, `exfat`, etc.).
+
+
+## Important
+The device may not boot if the drive isn't connected. If you want to stop mount the drive at boot remove the last line (the one we added) from `/etc/fstab`.
