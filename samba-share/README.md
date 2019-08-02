@@ -1,6 +1,8 @@
 # Samba share
 Share a folder or a drive on the network.
 
+It is particular useful to implement a DIY NAS. You may be interested in how to [mount a drive at boot](mount-drive-at-boot) to share on the home network your external hard disk or pendrive.
+
 ## TL;DR
 To share the folder `/mnt/usb` on the network just exec my script.
 ```
