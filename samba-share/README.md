@@ -7,17 +7,16 @@ To share the folder `/mnt/usb` on the network just exec my script.
 curl https://raw.githubusercontent.com/daquinoaldo/RaspberryPi/master/samba-share/samba-share.sh | sudo bash
 ```
 
-#### Custom settings
-If you want to access the shared folder without password add this lines at the end of [samba.conf](samba.conf).
+#### Important notes
+This script shares `/mnt/usb`, that is the folder of the [mounted drive](../mount-drive-at-boot/README.md). If you need to share **another directory** (i.e. `/usr/share`) download the script and change the bash commands or follow the manual instructions on the next section.
+
+Note also that by default **the content of the pi's home is shared** if you log to samba as pi. You can change this default behavior by editing `/etc/samba/smb.conf`.
+
+Furthermore, by default samba **requires a password** to access shared folder. You can change this behavior and access the shared folder without password by adding this lines at the end of [samba.conf](samba.conf).
 ```
 Public = yes
 Guest ok = yes
 ```
-
-#### Important note
-This script shares `/mnt/usb`, that is the folder of the [mounted drive](../mount-drive-at-boot/README.md). If you need to share **another directory** (i.e. `/usr/share`) download the script and change the bash commands or follow the manual instructions on the next section.
-
-Note also that by default the content of the pi's home is shared if you log to samba as pi. You can change this default behavior by editing `/etc/samba/smb.conf`.
 
 
 ## I don’t trust you, show me what to do
