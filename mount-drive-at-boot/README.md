@@ -5,7 +5,7 @@ I used an NTFS filesystem: it's not the best to use with linux, but it supports 
 
 ## TL;DR
 To mount a ntfs partition `/dev/sda1` in `/mnt/usb` at boot just exec my script and reboot the system.
-```
+```bash
 curl https://raw.githubusercontent.com/daquinoaldo/RaspberryPi/master/mount-drive-at-boot/mount-drive-at-boot.sh | sudo bash
 sudo reboot
 ```
@@ -19,17 +19,17 @@ You're right! Never trust random script found on internet!
 Here is how to set up the Pi manually.
 
 1. [optional] Install ntfs-3g for NTFS drive, you can skip if the drive has another filesystem
-   ```
+   ```bash
    sudo apt update
    sudo apt install -y ntfs-3g
    ```
 2. Prepare the mount point. I chose `/mnt/usb` but you can change it. Usually is a subdirectory of `/mnt` or `/media` for convention.
-   ```
+   ```bash
    sudo mkdir /mnt/usb
    sudo chmod 1777 /mnt/usb
    ```
 3. Edit fstab 
-   ```
+   ```bash
    nano /etc/fstab
    ```
    and add this line
